@@ -15,7 +15,7 @@ Aplikasi PHP Native sederhana untuk menghasilkan surat magang secara otomatis me
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+## 🛠️ Tech Stack
 
 - PHP Native
 - MySQL / MariaDB
@@ -201,30 +201,6 @@ generated/
 
 ---
 
-## 📸 Screenshot
-
-Tambahkan screenshot aplikasi pada folder:
-
-```text
-docs/
-
-├── homepage.png
-├── generated-docx.png
-└── database.png
-```
-
-Contoh:
-
-```md
-![Homepage](docs/homepage.png)
-
-![Generated DOCX](docs/generated-docx.png)
-
-![Database](docs/database.png)
-```
-
----
-
 ## 👨‍💻 Author
 
-Dibuat sebagai latihan implementasi PHP Native, MySQL, dan PHPWord untuk otomatisasi pembuatan dokumen surat magang.
+Dibuat saat magang di BRIDA Pemkot Semarang, sebagai latihan implementasi PHP Native, MySQL, dan PHPWord untuk otomatisasi pembuatan dokumen surat.

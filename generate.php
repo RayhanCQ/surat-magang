@@ -42,7 +42,7 @@ function semesterTerbilang(int $semester): string{
     $words = [
         'satu', 'dua', 'tiga', 'empat', 'lima', 'enam', 'tujuh', 'delapan'
     ];
-    return "$semester ({$words[$semester-1]})";
+    return $words[$semester-1];
 }
 
 //template docx

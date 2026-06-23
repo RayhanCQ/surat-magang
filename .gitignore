@@ -1,0 +1,5 @@
+/generated/
+.vscode/
+.idea/
+.env
+*.log

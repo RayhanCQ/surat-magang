@@ -27,7 +27,7 @@ Aplikasi PHP Native sederhana untuk menghasilkan surat magang secara otomatis me
 ## 📁 Struktur Project
 
 ```text
-SURAT/
+surat-magang/
 
 ├── config/
 │   └── database.php
@@ -57,7 +57,7 @@ SURAT/
 
 ```bash
 git clone <repository-url>
-cd SURAT
+cd surat-magang
 ```
 
 ### 2️⃣ Install Dependency

@@ -37,6 +37,14 @@ $nomorSurat =
     $urutan .
     '/MAGANG/TK/' . $bulanRomawi . '/' . date('Y');
 
+//format semester
+function semesterTerbilang(int $semester): string{
+    $words = [
+        'satu', 'dua', 'tiga', 'empat', 'lima', 'enam', 'tujuh', 'delapan'
+    ];
+    return "$semester ({$words[$semester-1]})";
+}
+
 //template docx
 $template = new TemplateProcessor('templates/surat_magang.docx');
 
@@ -45,7 +53,7 @@ $template->setValue('nomor_surat', $nomorSurat);
 $template->setValue('nama', $mhs['nama']);
 $template->setValue('nim', $mhs['nim']);
 $template->setValue('prodi', $mhs['prodi']);
-$template->setValue('angkatan', $mhs['angkatan']);
+$template->setValue('semester', $mhs['semester'] . '(' . terbilang($mhs['semester']) . ')' );
 $template->setValue('tanggal', date('d F Y'));
 
 //folder check

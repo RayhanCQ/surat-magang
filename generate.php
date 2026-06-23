@@ -53,7 +53,7 @@ $template->setValue('nomor_surat', $nomorSurat);
 $template->setValue('nama', $mhs['nama']);
 $template->setValue('nim', $mhs['nim']);
 $template->setValue('prodi', $mhs['prodi']);
-$template->setValue('semester', $mhs['semester'] . '(' . terbilang($mhs['semester']) . ')' );
+$template->setValue('semester', $mhs['semester'] . '(' . semesterTerbilang($mhs['semester']) . ')' );
 $template->setValue('tanggal', date('d F Y'));
 
 //folder check
